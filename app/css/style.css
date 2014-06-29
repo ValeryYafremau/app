@@ -1,0 +1,83 @@
+body {
+    text-align: center ;
+    font-size: 18px;
+    font-style: italic bold;
+    font-family: "Comic Sans";
+    color: #B0B0B0;
+}
+.main { 
+    width: 520px; 
+    height: 570px;
+    padding-left:5px;
+    background: #181818;
+    border: 2px solid #9A7;
+    position: relative;
+    float:center;
+    color: #F0F0F0 ;
+    margin:50px auto;
+    text-align:center;  
+}
+.list {
+    height: 434px;
+    width: 500px;
+    margin:5px 18px;
+    overflow-y: scroll;
+    background: #404040;
+}
+.input {
+    width: 480px;
+    height: 40px;
+    padding-left:10px;
+    margin-left: 10px;
+    color: white;
+    background: #606060 ;
+    font-size: 24px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    border: 2px solid #9A7;
+}
+.task {
+    height: auto;
+    width : 456px;
+    text-align:left;  
+    color: #9A7; 
+    margin: 2px;
+    margin-bottom: 0px;
+    padding:9px;
+    word-wrap: break-word;
+    border: 2px solid #303030; 
+    background: #282828;
+    font-size: 22px;
+    font-style: italic bold;
+}
+
+.x {
+    color:white;
+    font-size: 26px;
+    font-family: "MS Sans Serif";
+    font-weight:bold;
+    float:right;
+    opacity: 0.05;    
+}
+
+.x:hover{ 
+    color: white;
+    opacity: 1;       
+}
+
+.task:hover{
+    color: gold;
+}
+
+a:link, a:visited {
+    color: #F8F8F8 ;
+    text-decoration: none;    
+}
+a:hover {
+    color: crimson ;
+}
+.hidden {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
